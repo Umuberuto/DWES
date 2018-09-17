@@ -1,0 +1,40 @@
+<div>
+<p>1,2y 3) Lenguajes de marcas (HTML/XHTML) que forman encabezados, listas, tablas... a partir de etiquetas.</p>
+<p>CSS: Hojas de estilos para que una p&aacute;gina web se vea bonita. Son independientes del contenido.</p>
+<p>Esto son dos tipos de archivos distintos. El primero es "el esqueleto" de una p&aacute;gina web con estensi&oacute;n .htm, .html o .xhtml y el segundo es un archivo aparte con extensi&oacute;n .css (normalmente, tambi&eacute;n se puede incrustar en el mismo archivo html dentro de la propia etiqueta o fuera de ella, para evitar que 2 estilos "choquen" existen distintas prioridades) que est&aacute; referenciado a &eacute;l. Por eso para la correcta visualizaci&oacute;n de una p&aacute;gina web deben descargarse ambas partes.</p>
+</div>
+
+<p>4)Se establece una comunicaci&oacute;n entre el cliente (el usuario) y el servidor. El cliente solicita al servidor un archivo html (o de otro tipo), el servidor busca la p&aacute;gina y si la encuentra se la env&iacute;a al navegador del cliente para que este la muestre...</p>
+
+<p>5) S&iacute; puede, si el usuario dispone en local del archivo correspondiente puede abrirlo en un navegador ahorr&aacute;ndonos as&iacute; que el servidor nos env&iacute;e la p&aacute;gina deseada.</p>
+
+<div>
+<p>6)-P&aacute;gina est&aacute;tica: Es una p&aacute;gina cuyo contenido es invariable, siempre que la llames mostrar&aacute; el mismo resultado.</p>
+<p>-P&aacute;gina din&aacute;mica: Su contenido var&iacute;a dependiendo de acciones previas en la propia p&aacute;gina, del navegador o de las credenciales de usuario usadas para acceder a ella.</p>
+</div>
+<div>
+<p>7) -Las que tienen c&oacute;digo que va a ejecutar el navegador del cliente (Normalmente escritas con lenguaje JavaScript).</p>
+<p>-Las que tienen c&oacute;digo que se ejecutar&aacute; en el servidor cuyo resultado "ya procesado" se env&iacute;a al cliente... Este tipo de p&aacute;ginas no tienen la extensi&oacute;n .html sino extensiones del tipo .asp .cgi .jsp .php...</p>
+<p>-Una mezcla de ambos tipos pudiendo ser cambiada tanto por el cliente como por el servidor. Ej: Una web escrita con PHP que nos otorgue un html en cuyo interior existe c&oacute;digo JavaScript.</p>
+</div>
+
+<div>
+<p>8) El navegador del cliente solicita un archivo html (o de otro tipo) al servidor, el servidor recibe la petici&oacute;n y entrega al navegador lo que desee.</p>
+<p>Si lo que quiere el cliente es resultado de la ejecuci&oacute;n del c&oacute;digo de una p&aacute;gina del servidor, este debe enviar el c&oacute;digo a su m&oacute;dulo encargado de interpretarlo. A veces en este proceso es necesario acceder a datos externos. Normalmente se usa una base de datos... El resultado de todo este proceso es mandado al navegador.</p>
+<p>Si el resultado tiene c&oacute;digo el cliente podr&aacute; seguir variando su p&aacute;gina din&aacute;mica (Para esto es muy &uacute;til AJAX), si no , si desea variar algo de la p&aacute;gina, deber&aacute; comunicarse con el servidor otra  vez.</p>
+</div>
+
+<p>9) La ventaja de las p&aacute;ginas web din&aacute;micas es la gran flexibilidad de la que disponen, pero no debemos despreciar a las p&aacute;ginas web est&aacute;ticas ya que estas, aunque no var&iacute;en presentan otras ventajas. Ej: No hace falta saber programar para crear una p&aacute;gina est&aacute;tica, basta con conocer HTML y CSS o ni siquiera, se pueden usar editores de p&aacute;ginas gratuitos para generarlas. Son m&aacute;s f&aacute;ciles de escribir. Si deseas usar un enlace a ellas el resultado siempre ser&aacute; el mismo (si lo generas a una web din&aacute;mica el contenido puede variar). Una p&aacute;gina din&aacute;mica tarda m&aacute;s en cargar pues debe pasar por todo el proceso anteriormente descrito, adem&aacute;s para su ejecuci&oacute;n es necesario destinar unos recursos haciendo su mantenimiento m&aacute;s costoso. Una p&aacute;gina est&aacute;tica debe actualizarse de forma manual si deseas actualizarla...</p>
+
+<div>
+<p>10) Una aplicaci&oacute;n web usar&aacute; un conjunto de p&aacute;ginas web din&aacute;micas que se ejecutar&aacute;n en un servidor y se mostrar&aacute;n en un navegador. En la actualidad existen muchas aplicaciones web que compiten con las aplicaciones locales instaladas en una m&aacute;quina.</p>
+<p>Su principal ventaja es que no se instalan en todas las m&aacute;quinas que deseen usarlas sino que se instala en un &uacute;nico servidor y se pueden usar de forma simult&aacute;nea en numerosos equipos. Al estar en una sola m&aacute;quina su mantenimiento, copias de seguridad, actualizaciones... se hace de manera efectiva y sencilla. Para acceder a ellas NO hace falta tener un equipo potente o de un sistema operativo concreto (de hecho pueden acceder a ellas distintos dispositivos ya sean m&oacute;viles, tablets, videoconsolas...) siempre que tengan conexi&oacute;n con el servidor.</p>
+<p>Su principal desventaja es que la interfaz est&aacute; limitada a la potencia del navegador del cliente y que para poder usarlas es necesario depender de una conexi&oacute;n con el servidor...</p>
+<p>Actualmente las aplicaciones web se dividen en dos partes:</p>
+<p>*Front-end: Webs din&aacute;micas usadas por los usuarios externos de la aplicaci&oacute;n.</p>
+<p>*Back-end: Webs din&aacute;micas usadas por creadores de contenido o administradores...</p>
+<p>-Java EE: Es una plataforma de programci&oacute;n (parte de la plataforma JAVA) que usa el lenguaje de programaci&oacute;n JAVA. Se apoya en componentes modulares que se ejecutan sobre un servidor de aplicaciones.</p>
+<p>-AMP: Accelerated Mobile Pages es un proyecto implementado por Google cuyo objetivo es la carga de p&aacute;ginas web en Smartphone de manera m&aacute;s r&aacute;pida.</p>
+<p>-CGI/Perl: Common Gateway Interface es un m&eacute;todo para transmitir la informaci&oacute;n hacia un compilador instalado en el Servidor. Es usado com&uacute;nmente para contadores, BD, motores de b&uacute;squeda, formularios, generadores de email autom&aacute;tico, foros de discusi&oacute;n, chats, comercio electr&oacute;nico, rotadores y mapas de im&aacute;genes, juegos en l&iacute;nea...Los programas usados por el CGI est&aacute;n escritos en diversos lenguajes. Entre ellos destaca el Perl (que es distribuido de forma gratuita), C, C++ y JAVA.</p>
+<p>-ASP.NET: ASP.NET es un entorno para aplicaciones web desarrollado y comercializado por Microsoft. Es usado por programadores y dise&ntilde;adores para construir sitios web din&aacute;micos, aplicaciones web y servicios web XML. Est&aacute; construido sobre el Common Language Runtime, permitiendo a los programadores escribir c&oacute;digo ASP.NET usando cualquier lenguaje admitido por el .NET Framework.</p>
+</div>
