@@ -1,5 +1,5 @@
 <?php
-echo "<h2>Crea un fichero en php de tal forma que a partir de dos variables definidas que tendrás que mostrar el resultado de realizar las operaciones de suma, resta, multiplicación y división entre ellas. Utiliza operadores variados.</h2>";
+echo "<h2>Crea un fichero en php de tal forma que a partir de dos variables definidas que tendr&aacute;s que mostrar el resultado de realizar las operaciones de suma, resta, multiplicaci&oacute;n y divisi&oacute;n entre ellas. Utiliza operadores variados.</h2>";
     //Declaramos variables:
     $num1=5; $num2=4;
     
@@ -26,9 +26,9 @@ echo "<h2>Crea un fichero en php de tal forma que a partir de dos variables defi
     echo "$num1"." + "."$num2 = ".($num1+$num2).".";
     echo "<h3>Resta solucionada:</h3>";
     echo "$num1"." - "."$num2 = ".($num1-$num2).".";
-    echo "<h3>Multiplicación:</h3>";
+    echo "<h3>Multiplicaci&oacute;n:</h3>";
     echo "$num1 * $num2= ".$num1*$num2.".";
-    echo "<h3>División:</h3>";
+    echo "<h3>Divisi&oacute;n:</h3>";
     if ($num2!=0)
         echo "$num1 / $num2= ".$num1/$num2.".";
     else 

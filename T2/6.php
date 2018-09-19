@@ -1,10 +1,10 @@
 <?php
-    echo '<h2>Investiga el uso de la función gettype() de php y demuestra su utilización con un ejemplo en el que nos indique el tipo de la variable por pantalla.</h2>';
+    echo '<h2>Investiga el uso de la funci&oacute;n gettype() de php y demuestra su utilizaci&oacute;n con un ejemplo en el que nos indique el tipo de la variable por pantalla.</h2>';
 ?>
-<p>La función gettype() muestra el tipo de una variable. Ej:</p>
+<p>La funci&oacute;n gettype() muestra el tipo de una variable. Ej:</p>
 <?php
     $prueba=array(4, true, null, "3","string", array(4,6));
-    echo "<p>gettype() sobre la variable \$prueba no muestra nada porque la función no acepta arrays: ";
+    echo "<p>gettype() sobre la variable \$prueba no muestra nada porque la funci&oacute;n no acepta arrays: ";
     gettype($prueba);
     echo "</p>";
     echo "<p>Pero si recorremos el array muestra: <br>";
