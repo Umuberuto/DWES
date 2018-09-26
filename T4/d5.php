@@ -13,10 +13,10 @@
  $array2[-4]="El &iacute;ndice de este string debe ser -4.";
  $array2[-2]="El &iacute;ndice de este string debe ser -2.";
  $array2[-3]="El &iacute;ndice de este string debe ser -3.";
- $array2[-1]="El &iacute;ndice de este string debe ser 0 para que se cumpla la tercera regla.";
+ $array2[]="El &iacute;ndice de este string debe ser 0 para que se cumpla la tercera regla.";
  var_dump($array1);
  echo "<br><br>";
  var_dump($array2);
  echo "<br>";
- echo "Como podemos observar con el \$array2 la tercera ley NO se cumple.";
+ echo "Como podemos observar las leyes se cumplen.";
 ?>
