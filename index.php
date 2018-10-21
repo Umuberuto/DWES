@@ -12,5 +12,6 @@
         <h2><a href="T3/index.php">Tema 3: Formato de instrucciones.</a></h2>
         <h2><a href="T4/index.php">Tema 4: Arrays.</a></h2>
         <h2><a href="T5/index.php">Tema 5: Funciones.</a></h2>
+        <h2><a href="T6/index.php">Tema 6: Cadenas e include.</a></h2>
     </body>
 </html>
