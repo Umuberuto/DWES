@@ -1,4 +1,3 @@
-<?php @include_once '../../bibliotecademisfunciones/funcionesNumeros.php'; //Para asegurar correcto funcionamiento. ?>
 <h3>
     Realiza un programa include4.php en el cual se muestre si el n&uacute;mero 7 y el n&uacute;mero
     22 son primos llamando con include a un programa es_primo que mediante un bucle vea si el n&uacute;mero

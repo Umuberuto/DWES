@@ -1,4 +1,3 @@
-<?php @include_once '../../bibliotecademisfunciones/funcionesNumeros.php'; //Para asegurar correcto funcionamiento. ?>
 <h3>
     <p>Realiza dos programas similares:</p>
     <ol type="a">

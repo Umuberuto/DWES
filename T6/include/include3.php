@@ -1,4 +1,3 @@
-<?php @include_once '../../bibliotecademisfunciones/funcionesNumeros.php'; //Como este archivo SÍ se puede ejecutar y va a incluir a otros archivos (factorial.inc y divisores.inc) que necesitan la inclusión de un archivo para funcionar (funcionesNumeros.php) debo incluir esta ruta para asegurar el correcto funcionamiento... ?>
 <?php
     //Este fichero debe llamar dentro de un bucle for ( ; ; ) a factorial.inc (para los valores 10 y 30) y a divisores.inc (para los valores 20 y 40)
     $jj=10;
