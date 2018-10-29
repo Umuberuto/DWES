@@ -4,9 +4,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <title>Curso DWES T5</title>
     </head>
     <body>
+        <h1>Tema 5: Funciones.</h1>
         <h1>Prueba funci&oacute;n crearArrayInt()</h1>
         <?php 
             $parra=crearArrayInt(6, 1, 5);

@@ -4,9 +4,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <title>Curso DWES T6</title>
     </head>
     <body>
+        <h1>Tema 6: Cadenas e include.</h1>
         <h1>EJERCICIOS DE INCLUDE: </h1>
         <h2>EJERCICIO 1</h2><?php include("./include/1.php");?>
         <h2>EJERCICIO 2</h2><?php include("./include/2.php");?>

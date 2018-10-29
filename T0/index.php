@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Curso DWES</title>
+        <title>Curso DWES T0</title>
     </head>
     <body>
-        <h1>TAREA INICIAL</h1>
+        <h1>Tema 0: Introducci&oacute;n (Tarea inicial)</h1>
         <?php
             $manejadorFichero1 = fopen ("TareaInicial.txt","r");
             fpassthru ($manejadorFichero1);

@@ -1,0 +1,16 @@
+<!-- IMPORTANTE: A este fichero NO se le puede llamar directamente, debe ser incluido en ./2.php para que funcione-->
+<!--Este formulario sirve para introducir los datos para usar una calculadora-->
+<form name="calculadora" method="POST" action="./parte1/calculadora.php">
+    <h1>Calculadora</h1>
+    <span>
+        <input type="number" name="num1">
+        <select name="op">
+            <option value="+" selected>+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" name="num2">
+        <input type="submit" value="=">
+    </span>
+</form>

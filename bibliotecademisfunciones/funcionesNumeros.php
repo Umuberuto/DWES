@@ -38,4 +38,36 @@
         }     
     }
     
+    function sumar ($num1, $num2){ //Devuelve la suma de 2 números pasados o null si NO se pasan 2 números
+    if (isset($num1) && isset($num2)){
+        if(is_numeric($num1) && is_numeric($num2)){
+            return $num1+$num2;
+        } else return null;
+    } else return null;    
+    }
+    
+    function restar ($num1, $num2){ //Devuelve la resta de 2 números pasados o null si NO se pasan 2 números
+    if (isset($num1) && isset($num2)){
+        if(is_numeric($num1) && is_numeric($num2)){
+            return $num1-$num2;
+        } else return null;
+    } else return null;    
+    }
+    
+    function multiplicar ($num1, $num2){ //Devuelve la multiplicación de 2 números pasados o null si NO se pasan 2 números
+    if (isset($num1) && isset($num2)){
+        if(is_numeric($num1) && is_numeric($num2)){
+            return $num1*$num2;
+        } else return null;
+    } else return null;    
+    }
+    
+    function dividir ($num1, $num2){ //Devuelve la división de 2 números pasados o null si NO se pasan 2 números o el divisor es 0
+    if (isset($num1) && isset($num2)){
+        if(is_numeric($num1) && is_numeric($num2) && $num2!=0){
+            return $num1/$num2;
+        } else return null;
+    } else return null;    
+    }
+    
 ?>

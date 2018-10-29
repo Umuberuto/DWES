@@ -1,0 +1,18 @@
+<!--
+    Construir una página HTML desde la cual podamos enviar un mensaje usando un 
+    control tipo textarea y ademas un fichero adjunto.  
+    En el fichero PHP  realizaremos las siguientes comprobaciones: 
+        -Haciendo uso de la función is_uploaded_file comprobar si la componente de 
+        $_FILES['fichero']['tmp_name'] está vacía  y si es así cargar el error que 
+        se ha producido en una variable $error y después usar la función die para 
+        mostrar el error y acabar el script. Si no está vacía nos dará un mensaje 
+        de que el fichero se ha subido correctamente.
+        -Comprobar si el fichero esta comprimido preguntando si es de tipo  
+        'application/x-zip-compressed'. 
+-->
+<form name="uplfile1" method="POST" action="./1.php" enctype="multipart/form-data">
+    <textarea name="texto" maxlength="200"></textarea>
+    <input type="hidden" name="max_file_size" value="500000">
+    <input name="archivo" type="file">
+    <input type="submit" value="Enviar">
+</form>

@@ -1,0 +1,23 @@
+<!-- IMPORTANTE: A este fichero NO se le puede llamar directamente, debe ser incluido en ./5.php para que funcione-->
+<!--Este formulario sirve para introducir los datos para buscar canciones con canciones_resultado.php-->
+<form name="buscacanciones" method="POST" action="./parte1/canciones_resultado.php">
+    <h1 style="color:#00AAFF;">Formulario simple</h1>
+    <h2><i>B&uacute;squeda de canciones</i></h2>
+    <label for="can"><b>Texto a buscar:</b><input type="text" name="can"></label><br>
+    <label for="cat"><b>Buscar en:</b><input type="radio" name="cat" value="T&iacute;tulos&nbsp;de&nbsp;canci&oacute;n">T&iacute;tulos&nbsp;de&nbsp;canci&oacute;n<input type="radio" name="cat" value="Nombres&nbsp;de&nbsp;&aacute;lbum">Nombres&nbsp;de&nbsp;&aacute;lbum<input type="radio" name="cat" value="Ambos&nbsp;campos">Ambos&nbsp;campos</label><br>
+    <label for="gen"> <b>G&eacute;nero musical:</b>   
+        <select name="gen">
+            <option value="Todos" selected>Todos</option>
+            <option value="Ac&uacute;stica">Ac&uacute;stica</option>
+            <option value="Banda&nbsp;Sonora">Banda Sonora</option>
+            <option value="Blues">Blues</option>
+            <option value="Electr&oacute;nica">Electr&oacute;nica</option>
+            <option value="Folk">Folk</option>
+            <option value="Jazz">Jazz</option>
+            <option value="New&nbsp;Age">New Age</option>
+            <option value="Pop">Pop</option>
+            <option value="Rock">Rock</option>
+        </select>
+    </label><br>
+    <input type="submit" value="Buscar">
+</form>

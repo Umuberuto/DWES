@@ -1,0 +1,13 @@
+<!--
+    Construir una página HTML desde la cual podamos enviar un fichero y controlar en la página .php: 
+            -Si se produce un error mayor de cero se escribirá el error por la pantalla.
+            -Si es que no se produce un error mostrará por pantalla el nombre, tipo, 
+             tamaño (en KB) y la carpeta temporal y después se moverá el fichero a una 
+             carpeta que le especifiquemos en el programa (se supone que debe existir y 
+             le daremos la ruta).
+-->
+<form name="uplfile2" method="POST" action="./2.php" enctype="multipart/form-data">
+    <textarea name="texto" maxlength="200"></textarea>
+    <input name="archivo" type="file">
+    <input type="submit" value="Enviar">
+</form>

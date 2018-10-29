@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <title>Curso DWES T2</title>
     </head>
     <body>
+        <h1>Tema 2: Inserci&oacute;n de c&oacute;digo en p&aacute;ginas web.</h1>
         <h1>EJERCICIO 1</h1><?php include("1.php");?>
         <h1>EJERCICIO 2</h1><?php include("2.php");?>
         <h1>EJERCICIO 3</h1><?php include("3.php");?>

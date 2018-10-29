@@ -13,5 +13,8 @@
         <h2><a href="T4/index.php">Tema 4: Arrays.</a></h2>
         <h2><a href="T5/index.php">Tema 5: Funciones.</a></h2>
         <h2><a href="T6/index.php">Tema 6: Cadenas e include.</a></h2>
+        <h2><a href="T7/index.php">Tema 7: Funciones de fecha y hora.</a></h2>
+        <h2><a href="T8/index.php">Tema 8: Formularios e interacci&oacute;n cliente-servidor.</a></h2>
+        <h2><a href="T9/index.php">Tema 9: Subir ficheros al servidor.</a></h2>
     </body>
 </html>

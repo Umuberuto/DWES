@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <title>Curso DWES T4</title>
     </head>
     <body>
+        <h1>Tema 4: Arrays.</h1>
         <h1>PRUEBAS DIAPOSITIVA 4</h1><?php include("diapositivas/d4.php");?>
         <h1>EJERCICIO DIAPOSITIVA 5</h1><?php include("diapositivas/d5.php");?>
         <h1>EJERCICIO DIAPOSITIVA 6</h1><?php include("diapositivas/d6.php");?>

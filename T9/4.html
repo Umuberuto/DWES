@@ -1,0 +1,12 @@
+<!--
+    Construir un formulario HTML que nos permita enviar cuatro ficheros distintos 
+    usando un array. El fichero .php en el servidor nos mostrara datos sobre los 
+    ficheros enviados.
+-->
+<form name="uplfle4" method="POST" action="./4.php" enctype="multipart/form-data">
+    <input name="archivos[]" type="file"> 
+    <input name="archivos[]" type="file"> 
+    <input name="archivos[]" type="file"> 
+    <input name="archivos[]" type="file">
+    <input type="submit" value="Enviar ficheros">
+</form>
