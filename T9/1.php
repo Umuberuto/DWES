@@ -27,7 +27,7 @@
                     $error= 'El fichero es de mayor tama&ntilde;o a la configuraci&oacute;n de php.ini';//echo 'El fichero es de mayor tamaño a la configuración de php.ini';
                     break;
                 case 2:
-                    $error= 'El fichero es de mayor tama&ntilde;o a lo permitido en el formulario'; //$_FILES ['archivo']['size']==0 y $_FILES ['archivo']['tmp_name']=="none"
+                    $error= 'El fichero es de mayor tama&ntilde;o a lo permitido en el formulario'; //$_FILES ['archivo']['size']==0 y $_FILES ['archivo']['tmp_name']=="" (NO none como decía en los apuntes.)
                     break;
                     //INTERESANTE:Coje este caso si se cumplen el caso 1 y el caso 2 simultáneamente.
                 case 3:
