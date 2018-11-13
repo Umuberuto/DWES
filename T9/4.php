@@ -7,7 +7,7 @@
 ?>
 <?php
 if(isset($_FILES['archivos'])){
-    $total=  count($_FILES['archivos']['name']); //IMPORTANTE: count ($_FILES['archivos']) da 4 pero count ($_FILES['archivos']['name']) da 5.
+    $total=  count($_FILES['archivos']['name']); //IMPORTANTE: count ($_FILES['archivos']) da 5 pero count ($_FILES['archivos']['name']) da 4.
     for($i=0;$i<$total;$i++){
         if ($_FILES['archivos']['error'][$i]==4){
             $a=$i+1;
