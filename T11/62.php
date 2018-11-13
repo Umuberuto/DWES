@@ -13,7 +13,7 @@
         if(setcookie("datos[nombre]",$nombre,time()+3600)){
             if(setcookie("datos[tel]",$tel,time()+3600)){
                 if(setcookie("datos[edad]",$edad,time()+3600)){
-                    header("Refresh: 5; url=63.php"); 
+                    header("Refresh: 5; url=63.php"); //NOTA: Si aquí NO redirigiese con Refresh y usase un include al incluir el codigo de 63.php me REDIRECCIONARIA a 6.php porque las cookies solo tienen efecto cuando refrescas o reinicias el navegador...
                     echo "Cookies creadas. En 5 segundos ser&aacute; redirigido para ver las cookies con su valor.<br>";
                 }
             }
