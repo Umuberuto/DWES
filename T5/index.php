@@ -4,10 +4,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Nicolás Umberto Sánchez Avilés">
         <title>Curso DWES T5</title>
     </head>
     <body>
-        <h1>Tema 5: Funciones.</h1>
+        <h1>TEMA 5: FUNCIONES.</h1>
         <h1>Prueba funci&oacute;n crearArrayInt()</h1>
         <?php 
             $parra=crearArrayInt(6, 1, 5);
@@ -96,6 +97,6 @@
                 echo "<h3>Fila: $coordenadas[0] Columna: $coordenadas[1]</h3>";
             }
         ?>
-        <h1><a href="../index.php">Volver al &Iacute;NDICE de temas</a></h1>
+        <h1><a href="../index.php">VOLVER AL &Iacute;NDICE DE TEMAS</a></h1>
     </body>
 </html>

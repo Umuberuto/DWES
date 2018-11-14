@@ -1,4 +1,4 @@
-<h2>Probad con estos datos e inventar un ejercicio diferente:</h2>
+<h3>Probad con estos datos e inventar un ejercicio diferente:</h3>
 <?php
     $array = array(
         "a",
@@ -6,8 +6,11 @@
         6=>"c",
         "d",
     );
-    var_dump($array);
-    echo '<br>';
+    
+    echo "<p>";
+        var_dump($array);
+    echo '</p>';
+    
     $ejerciciodiferente=array(
         -2=>"Oz",
         true,
@@ -20,5 +23,8 @@
         "",
         "estoseranull"=>null
     );
-    var_dump($ejerciciodiferente);
+    
+    echo "<p>";
+        var_dump($ejerciciodiferente);
+    echo "</p>";
 ?>

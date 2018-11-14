@@ -1,4 +1,8 @@
-<h2>Crear una agenda usando una matriz multidimensional asociativa que contenga el nombre, direcci&oacute;n , tel&eacute;fono y correo electr&oacute;nico de nuestros amigos:</h2>
+<h3>
+    Crear una agenda usando una matriz multidimensional asociativa que contenga
+    el nombre, direcci&oacute;n , tel&eacute;fono y correo electr&oacute;nico de
+    nuestros amigos:
+</h3>
 <?php
     $agenda=array(
         "001J"=>array( //Estos índices son como un DNI (irrepetibles) para que me sirvan de clave.
@@ -27,7 +31,9 @@
                 ),
     );
 ?>
-<h3>Agenda:</h3>
+
+<h4>AGENDA:</h4>
+
 <table>
     <tr>
         <th>C&Oacute;DIGO/DNI</th>

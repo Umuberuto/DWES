@@ -1,6 +1,9 @@
-<h2>Realizar un programa que muestre el c&aacute;lculo del factorial de 5 mas o menos de esta forma y usando un bucle for
-    Despu&eacute;s hacer otras dos versiones usando bucle do while y bucle while</h2>
-<h3>Con FOR</h3>
+<h3>
+    Realizar un programa que muestre el c&aacute;lculo del factorial de 5 mas o
+    menos de esta forma y usando un bucle for. Despu&eacute;s hacer otras dos
+    versiones usando bucle do while y bucle while
+</h3>
+<h4>Con FOR</h4>
 <p>
     5! = 
     <?php
@@ -16,7 +19,7 @@
         echo "$res.";
     ?>
 </p>
-<h3>Con DO WHILE</h3>
+<h4>Con DO WHILE</h4>
 <p>
     5! = 
     <?php
@@ -34,7 +37,7 @@
         echo "$resu.";
     ?>
 </p>
-<h3>Con WHILE</h3>
+<h4>Con WHILE</h4>
 <p>
     5! = 
     <?php

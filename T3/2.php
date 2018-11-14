@@ -1,4 +1,7 @@
-<h2>Usar dos bucles for anidados para construir una tabla de multiplicar similar a la del dibujo</h2>
+<h3>
+    Usar dos bucles for anidados para construir una tabla de multiplicar similar
+    a la del dibujo:
+</h3>
 <?php
     echo "<table>";
     for($i=1;$i<11;$i++){
