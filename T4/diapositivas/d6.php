@@ -1,4 +1,4 @@
-<h3>
+<h4>
     <p>Realizar un ejemplo vuestro de cada una de esas 4 opciones.</p>
     <p>Distintas formas:</p>
     <ol>
@@ -19,7 +19,7 @@
         </li>
         <li>Tambi&eacute;n podemos usarlo para crear as&iacute; arrays asociativos.</li>
     </ol>
-</h3>
+</h4>
 <?php
     //Forma 1:
     $arrayvacio=array();
@@ -48,11 +48,11 @@
 //    $ejemplo= array ('Marzo' =>1, 'uno', -3 => 'true',1);
 //    var_dump($ejemplo);
 ?>
-<h3>
+<h4>
     &iquest;Que har&iacute;a el siguiente ejemplo? <br>$ejemplo= array ('Marzo' =>1,
     'uno', -3 => 'true',1);
-</h3>
-<h4>
+</h4>
+<h5>
     RESPUESTA: Crea un array cuyo &iacute;ndice "Marzo" contiene un int 1, el 0 un
     String "uno", el -3 un String "true" y el 1 un int 1.
-</h4>
+</h5>

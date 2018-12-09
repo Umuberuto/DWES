@@ -1,7 +1,13 @@
 <h3>
-    Realizar un programa que muestre el c&aacute;lculo del factorial de 5 mas o
-    menos de esta forma y usando un bucle for. Despu&eacute;s hacer otras dos
-    versiones usando bucle do while y bucle while
+    <p>
+        Realizar un programa que muestre el c&aacute;lculo del factorial de 5 mas
+        o menos de esta forma y usando un bucle for.
+    </p>
+    <p>Ej:</p>
+    <img src="./img/1.JPG">
+    <p>
+        Despu&eacute;s hacer otras dos versiones usando bucle do while y bucle while:
+    </p>
 </h3>
 <h4>Con FOR</h4>
 <p>

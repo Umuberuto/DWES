@@ -1,4 +1,11 @@
-<h3>Usar un bucle while para sacar la descomposici&oacute;n factorial de un n&uacute;mero.</h3>
+<h3>
+    <p>
+        Usar un bucle while para sacar la descomposici&oacute;n factorial de un
+        n&uacute;mero.
+    </p>
+    <p>Ej:</p>
+</h3>
+<img src="./img/3.JPG">
 <?php 
     $nume=5050; $max=$nume/2; $divis=2; $poten=0;
     echo "<p>Descomposici&oacute;n factorial: <br>";

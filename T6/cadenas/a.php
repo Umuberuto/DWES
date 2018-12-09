@@ -1,8 +1,8 @@
-<h3>
+<h4>
     Hacer un programa en el que metamos un texto en una variable y cuente cuantas
     veces se repite cada una de las vocales y lo muestre por pantalla.
     Por ejemplo: a:8 / e: 4 / i: 13 / o: 9 / u: 7
-</h3>
+</h4>
 <?php
     $vocales=array("a"=>0,"e"=>0,"i"=>0,"o"=>0,"u"=>0);
     $string="á lalala o iiii uuuu éée";
@@ -46,12 +46,12 @@
         }
     }
     
-    echo "<strong>";
+    echo "<p><strong>";
     foreach ($vocales as $clave=>$valor){
         if ($clave!="u"){
             echo "$clave : $valor / ";
         } else {
-            echo "$clave : $valor </strong>";
+            echo "$clave : $valor </strong></p>";
         }
     }
 ?>

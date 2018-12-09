@@ -1,10 +1,12 @@
-<h3>
+<h4>
     Haz ese mismo ejercicio pero en lugar de usar dos p&aacute;ginas haciendo que
     la p&aacute;gina se llame a si misma pero sin errores:
-</h3>
+</h4>
 <div class="fondonaranja" style="background-color: orange;">
     <h1>FORMULARIO COMPLETO POST</h1>
-    <form name ='formcompletopost' method='POST' action=""><!--IMPORTANTE: Dejar el action en blanco hace que se llame a sí mismo (El . hace que llame a la carpeta en la que está el archivo)-->
+    <form name ='formcompletopost' method='POST' action=""><!--IMPORTANTE: Dejar
+el action en blanco hace que se llame a sí mismo (El . hace que llame a la carpeta
+en la que está el archivo)-->
         <table>
             <tr>
                 <td>
@@ -58,7 +60,9 @@
                     </select>
                 </td>
                 <td align="center">
-                    <label for='multi[]'>Selecci&oacute;n m&uacute;ltiple:</label> <!-- IMPORTANTE: Es necesario el [] en el nombre para indicar que es un array porque si no en las variables de PHP (Ej $_REQUEST[]) se guarda un solo valor.-->
+                    <label for='multi[]'>Selecci&oacute;n m&uacute;ltiple:</label> <!-- IMPORTANTE:
+                    Es necesario el [] en el nombre para indicar que es un array porque si no en las
+                    variables de PHP (Ej $_REQUEST[]) se guarda un solo valor.-->
                     <br>
                     <select name='multi[]' multiple> 
                         <option>primera</option>
@@ -97,7 +101,11 @@
                         echo "              
                                 </td>
                               </tr>"; 
-                    } elseif ($valor!=="") { //Esta "lindeza" de código es necesaria porque la función empty() devuelve true con 0. Básicamente al llegar hasta esta línea si es distinto de "" solo puede ser el numero 0 o otra cosa que el empty devuelva true sin ser true (la función empty está diseñada muy mal)
+                    } elseif ($valor!=="") { /*Esta "lindeza" de código es necesaria
+                    porque la función empty() devuelve true con 0. Básicamente al llegar
+                    hasta esta línea si es distinto de "" solo puede ser el numero 0 u otra
+                    cosa que el empty devuelva true sin ser true (la función empty está
+                    diseñada muy mal)*/
                         echo "<tr> 
                                 <td>\$_REQUEST['$clave']</td>
                                 <td>$valor (la funci&oacute;n empty NO filtra bien)</td>

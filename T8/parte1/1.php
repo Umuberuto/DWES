@@ -1,9 +1,9 @@
-<h3>
+<h4>
     Realizar un ejemplo de uso de formularios similar a los de UT8 comprobando
     como sale y que aparece en la llamada al explorador. Hacer dos versiones una
     para POST y otra para GET. Despu&eacute;s intentar hacer la llamada de forma
     directa en la l&iacute;nea de llamada al explorador y ver lo que ocurre:
-</h3>
+</h4>
 <div class="fondonaranja" style="background-color: orange;">
     <h1>FORMULARIO COMPLETO GET</h1>
     <form name ='formcompletoget' method='GET' action="">

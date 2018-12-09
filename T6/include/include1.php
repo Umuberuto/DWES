@@ -1,9 +1,12 @@
 <?php
-    //Este fichero debe declarar la variable $num= 20 e incluir los ficheros factorial.inc y divisores.inc 
+    /*Este fichero debe declarar la variable $num= 20 e incluir los ficheros
+     * factorial.inc y divisores.inc*/ 
     $num = 20;
-    echo "Incluyo el fichero que calcula el factorial: <br>";
+    echo "<hr>";
+    echo "<p>Incluyo el fichero que calcula el factorial: </p>";
     include 'factorial.inc';
-    echo '<br>';
-    echo "Ahora incluyo el fichero que saca los divisores primos: <br>";
+    echo "<hr>";
+    echo "<p>Ahora incluyo el fichero que saca los divisores primos: </p>";
     include 'divisores.inc';
+    echo "<hr>";
 ?>

@@ -1,10 +1,10 @@
-<h3>
+<h4>
     Construir un array que contenga el c&oacute;digo de 8 productos cada uno de
     los cuales est&aacute; representado por un c&oacute;digo CNNNNCCC siendo cada
     C un car&aacute;cter y cada N un n&uacute;mero del 0 al 9 (por ejemplo A1212BXF).
     Hacer un programa que sume 1000 a cada una de las partes num&eacute;ricas de
     los c&oacute;digos y luego muestre los nuevos c&oacute;digos por pantalla:
-</h3>
+</h4>
 <?php
     $productos=array(
         "Z1324JJJ",

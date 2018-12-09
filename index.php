@@ -19,5 +19,7 @@
         <h2><a href="./T9/index.php">Tema 9: Subir ficheros al servidor.</a></h2>
         <h2><a href="./T10/index.php">Tema 10: Entrada y salida en PHP.</a></h2>
         <h2><a href="./T11/index.php">Tema 11: Creaci&oacute;n de Aplicaciones Web simples.</a></h2>
+        <h2>Tema 12: Headers, Tokens y Captcha. (No hay ejercicios de esta unidad)</h2>
+        <h2><a href="./T13/index.php">Tema 13: Programaci&oacute;n orientada a objetos.</a></h2>
     </body>
 </html>

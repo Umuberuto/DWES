@@ -1,10 +1,10 @@
-<h3>
+<h4>
     Construir un array multidimensional escalar en el que met&aacute;is el mismo
     tipo de datos del ejercicio 1 pero poniendo datos de tres equipos. Deber&eacute;is
     cargarlo de tres formas distintas pero adem&aacute;s cada uno de los equipos
     tendr&aacute; distinto n&uacute;mero de jugadores y mostrarlos por pantalla en una
     tabla:
-</h3>
+</h4>
 <table>
     <?php
         $equipos[0][0]="Mary";

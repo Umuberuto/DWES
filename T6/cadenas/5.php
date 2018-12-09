@@ -1,7 +1,7 @@
-<h3>
+<h4>
     Programa que recibe dos palabras, una en un campo normal y otra en un campo
     tipo contrase&ntilde;a y nos dice si son iguales. Funci&oacute;n strcmp.
-</h3>
+</h4>
 <?php
     $palabra="Babalunga";
     $pass="Babalunga";

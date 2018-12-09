@@ -25,26 +25,29 @@
     $d= $_FILES['archivo']['size'];
     $e= $_FILES['archivo']['error'];
     if ($e==0){
-        echo $a."<br>".$b."<br>".$c."<br>".$d."<br>".$e."<br>";
+        echo "<p>$a</p><p>$b</p><p>$c</p><p>$d</p><p>$e</p>";
         if(file_exists("./dircreadoparaficheros")){
-            if(copy($b, "./dircreadoparaficheros/".$a)){ //copy () es parecido a move_uploaded_file () pero sirve para TODOS los archivos, NO solo para los subidos por formularios. Además NO borra el archivo, lo copia pero PHP borra la carpeta tmp cuando pasa tiempo. 
-                echo "El fichero se ha copiado correctamente.";
-            } else {echo 'Ha ocurrido un error al copiar al servidor el archivo';}
+            if(copy($b, "./dircreadoparaficheros/".$a)){ /*copy () es parecido a
+             * move_uploaded_file() pero sirve para TODOS los archivos, NO solo
+             * para los subidos por formularios. Además NO borra el archivo, lo
+             * copia pero PHP borra la carpeta tmp cuando pasa tiempo.*/ 
+                echo "<p>El fichero se ha copiado correctamente.</p>";
+            } else {echo '<p>Ha ocurrido un error al copiar al servidor el archivo.</p>';}
         }else{
             mkdir("./dircreadoparaficheros"); //Para crear la carpeta
             if(copy($b, "./dircreadoparaficheros/".$a)){
-                echo "El fichero se ha copiado correctamente.";
-            } else {echo 'Ha ocurrido un error al copiar al servidor el archivo';}
+                echo "<p>El fichero se ha copiado correctamente.</p>";
+            } else {echo '<p>Ha ocurrido un error al copiar al servidor el archivo.</p>';}
         }
     } elseif ($e==1){
-          echo 'El fichero es de mayor tama&ntilde;o a la configuraci&uacute;n de php.ini';
+          echo '<p>El fichero es de mayor tama&ntilde;o a la configuraci&uacute;n de php.ini.</p>';
       } elseif ($e==2){
-            echo 'El fichero es de mayor tama&ntilde;o a lo permitido en el formulario';
+            echo '<p>El fichero es de mayor tama&ntilde;o a lo permitido en el formulario.</p>';
         } elseif ($e==3){
-              echo 'El fichero ha sido transferido parcialmente';
+              echo '<p>El fichero ha sido transferido parcialmente.</p>';
           } elseif ($e==4){
-                echo 'No se subi&uacute; ning&uacute;n fichero';
+                echo '<p>No se subi&uacute; ning&uacute;n fichero.</p>';
             } else { 
-                echo 'No existe directorio temporal';
+                echo '<p>No existe directorio temporal.</p>';
               }
 ?>

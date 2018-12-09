@@ -1,8 +1,8 @@
-<h2>
+<h3>
     Realiza un programa en el que obtengas el timestamp actual del servidor luego
     lo conviertas en una cadena usando date y muestre con echo la marca de tiempo
     y el contenido de la cadena.
-</h2>
+</h3>
 <?php
     $timeservidor=  time();
     $cadenafecha= date("l dS \of F Y h:i:s A");

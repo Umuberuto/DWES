@@ -1,4 +1,4 @@
-<h3>Probad con estos datos e inventar un ejercicio diferente:</h3>
+<h4>Probad con estos datos e inventar un ejercicio diferente:</h4>
 <?php
     $array = array(
         "a",

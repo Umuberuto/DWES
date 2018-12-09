@@ -1,7 +1,7 @@
-<h3>
+<h4>
     Realizar un programa que cargue una lista de 8 elementos en un formulario
     usando vectores e imprimir la suma de ellos:
-</h3>
+</h4>
 <?php
     if($_SERVER['PHP_SELF']=='/DWES/T8/parte1/4.php')
         echo '<form name="sumavector" method="POST" action="./4.php">';
@@ -26,6 +26,6 @@
             $suma+=$valor;
         }
         if($suma!=0)
-            echo "La suma del vector es: $suma";
+            echo "<p>La suma del vector es: $suma.</p>";
     }
 ?>

@@ -1,7 +1,7 @@
-<h3>
+<h4>
     Programa que recibe una frase y muestra un mensaje de error en caso de que 
     su longitud m&iacute;nima no sea superior a 10 caracteres. Funci&oacute;n strlen.
-</h3>
+</h4>
 <?php
     $frase="Pirika Pirilala Kokorino Peperuto";
     if(strlen($frase)<=10)

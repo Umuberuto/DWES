@@ -1,4 +1,4 @@
-<h3>Probad lo que muestra este ejemplo:</h3>
+<h4>Probad lo que muestra este ejemplo:</h4>
 <?php
     $array = array( 1 => "a", "1" => "b", 1.5 => "c", true => "d",);
     echo "<p>";

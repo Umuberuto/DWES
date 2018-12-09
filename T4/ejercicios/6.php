@@ -1,9 +1,9 @@
-<h3>
+<h4>
     Realiza un programa en el que crees un array multidimensional cargado con los
     datos de los empleados de una empresa (dni, nombre, salario, ...) u otra cosa
     que te inventes pero que contenga datos diferentes y no todos los elementos
     tengan todos los datos. Luego mu&eacute;stralo en una tabla por pantalla:
-</h3>
+</h4>
 <table>
     <tr>
         <th>DNI</th>

@@ -1,8 +1,8 @@
-<h3>
+<h4>
     Construir un array asociativo en el que especifiqu&eacute;is para cada jugador
     que met&aacute;is en el la posici&oacute;n que ocupa en el equipo (delantero,
     portero, defensa...):
-</h3>
+</h4>
 <?php
     $equipo=array(
                 "Pepe"=>"portero",
