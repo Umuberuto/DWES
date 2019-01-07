@@ -4,7 +4,10 @@
         private $marca; //IMPORTANTE: Preguntar si debo igualarlos a null en esta línea o si debo hacerlo en el constructor. (De momento lo he hecho en el constructor).
         private $modelo;
         private $precio;
-        
+        const NUM_RUEDAS=4;
+        static $cochescreados=0;
+
+
         //Funciones
         function __set($atributo, $valor) {
             if (property_exists(__CLASS__, $atributo)){
@@ -29,10 +32,16 @@
             $this->marca=$marca;
             $this->modelo=$modelo;
             $this->precio=$precio;
+            ++self::$cochescreados;
+            echo "<p>Coche creado.</p>";
         }
         
         /*function Coche2($marca,$modelo,$precio){...} NO EXISTE sobrecarga, esta
           función da error*/
+        
+        function __destruct() {
+            echo "<p>Coche destruido.</p>";
+        }
         
         function precioIVA (){
             echo "<p>Precio con IVA: ".($this->precio * 1.21)."</p>";
@@ -118,5 +127,9 @@
             }
         }
         
+        static function rumrum(){
+            echo "<p> Un coche hace <i>&iexcl;rum, rum!</i></p>";
+        }
+        
     }
-?>
+?> 
