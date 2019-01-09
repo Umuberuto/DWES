@@ -40,7 +40,7 @@
             if(property_exists(__CLASS__, $propiedad)){
                 $this->$propiedad=$valor;
             } else {
-                echo "<p>NO existe esa propiedad</p>";
+                echo "<p style='color:red;'>NO existe esa propiedad.</p>";
                 return false;
             }
         }
