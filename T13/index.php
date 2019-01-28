@@ -15,6 +15,8 @@
         <h3>EJERCICIO DIAPOSITIVA 36</h3><?php include("./diapositivas/d36.php");?>
         <h2>DIAPOSITIVAS 2</h2>
         <h3>EJERCICIO DIAPOSITIVA 8</h3><?php include("./diapositivas2/d8.php");?>
+        <h3>PREGUNTAS Y COMPROBACIONES DIAPOSITIVA 9</h3><?php include("./diapositivas2/d9.php");?>
+        <?php include "./diapositivas2/index.php";?>
         <!--
         <h2>EJERCICIOS</h2>
         <h3>EJERCICIO 1</h3><?php //include ("./ejercicios/1.php");?>
