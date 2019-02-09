@@ -40,7 +40,8 @@
             
             //No mágicos (Normales)
             
-            public abstract function factura();
+                //Abstractos
+                public abstract function factura();
             
     }
 

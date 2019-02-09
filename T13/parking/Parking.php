@@ -55,7 +55,17 @@
                 }
             }
             
-            //Normales:
+            public function __toString() {
+                $string="";
+                $string.="<b>Nombre del parking:</b> $this->nombre.<br>";
+                $string.="<b>Plazas totales:</b> $this->plazasTotal.<br>";
+                $string.="<b>Plazas reservadas para abonados:</b> $this->plazasAbonados.<br>";
+                $string.="<b>Plazas reservadas para clientes de hotel:</b> $this->plazasHotel.<br>";
+                $string.="<b>Plazas ocupadas:</b> $this->plazasOcupadas.<br>";
+                return $string;
+            }
+
+            //No mágicos (Normales)
             
             public function buscaVehiculo($num) {
                 if ($num<count($this->vehiculos)){
@@ -66,6 +76,20 @@
                 }
             }
             
+            public function sacaFactura($vehiculo){ //Devuelve true si tiene éxito y false si fracasa.
+                if ($vehiculo instanceof Vehiculo){
+                    foreach ($this->vehiculos as $valor) {
+                        if ($valor == $vehiculo){
+                            $vehiculo->factura();
+                            return true;
+                        }
+                    }
+                } else {
+                    echo "<b>ERROR:</b> No se puede sacar la factura de algo que NO sea un veh&iacute;culo.<br>";
+                    return false;
+                }
+            }
+
             public function cochesAbonados() {
                 $abonados=0;
                 foreach ($this->vehiculos as $valor) {
@@ -81,7 +105,7 @@
                 foreach ($this->vehiculos as $valor) {
                     if ($valor instanceof VehiculoH){
                         $hotel++;
-                    }
+                    } 
                 }
                 return $hotel;
             }
@@ -91,7 +115,7 @@
                     foreach ($this->vehiculos as $clave=> $valor) {
                         if ($valor==null){
                             $this->vehiculos[$clave]=$vehiculo;
-                            echo "Se ha aparcado el coche en el parking con &eacute;xito.<br>";
+                            $this->plazasOcupadas++;
                             return true;
                         }
                     }
@@ -101,6 +125,16 @@
                     echo '<b>ERROR:</b> Est&aacute; intentando aparcar algo que NO es un coche.<br>';
                     return false;
                 }
+            }
+            
+            public function muestraVehiculos (){ //Va a ser un método que devuelve e imprime el string a la vez.
+                $string="";
+                for ($i=0; $i<count($this->vehiculos); $i++){
+                    $string.="<b><u>COCHE APARCADO EN LA POSICI&Oacute;N $i:</u></b><br>";
+                    $string.=$this->vehiculos[$i]->toString();
+                }
+                echo $string;
+                return $string;
             }
             
     }
